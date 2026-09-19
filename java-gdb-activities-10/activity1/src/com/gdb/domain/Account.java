@@ -54,37 +54,37 @@ public class Account {
     public String getAccountNumber(){
         return accountNumber;
     }
-    public void setAccountNumber(){
+    public void setAccountNumber(String accountNumber){
         this.accountNumber=accountNumber;
     }
     public String getName(){
         return name;
     }
-    public void setName(){
+    public void setName(String name){
         this.name=name;
     }
-    public String getAge(){
+    public int getAge(){
         return age;
     }
-    public void setAge(){
+    public void setAge(int age){
         this.age=age;
     }
-    public String getBalance(){
+    public double getBalance(){
         return balance;
     }
-    public void setBalance(){
+    public void setBalance(double balance){
         this.balance=balance;
     }
     public String getAccountType(){
         return accountType;
     }
-    public void setAccountType(){
+    public void setAccountType(String accountType){
         this.accountType=accountType;
     }
     public String getStatus(){
         return status;
     }
-    public void setStatus(){
+    public void setStatus(String status){
         this.status=status;
     }
 
